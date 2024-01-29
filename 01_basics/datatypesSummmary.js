@@ -41,3 +41,28 @@ console.log(typeof outSideTemo);
 console.log(typeof myFunction);
 console.log(typeof anotherId);
 
+
+// ++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-primitive )
+
+let myYoutubeName = "durgeshprabhugaonakar"
+
+let anotherName = myYoutubeName;
+anotherName = "chaiCode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let user1 = {
+    email : "user@google.com",
+    upi : "user1@ybl" 
+}
+
+let user2  = user1
+
+user2.email = "durgesh@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
