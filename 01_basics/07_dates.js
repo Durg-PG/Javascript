@@ -16,5 +16,11 @@ let myCreatredDate2 = new Date("01-14-2024")
 console.log(myCreatredDate2.toLocaleString());
 
 
-let myTimeStamp = Date.now()
-console.log(myTimeStamp.ge)
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+console.log(myCreatredDate.getTime());
+console.log(Date.now());
+
+let newDate = new Date();
+
+console.log(newDate.getDate());
