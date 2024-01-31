@@ -27,3 +27,35 @@ console.log(loginUserMessage("Durgesh"));
 console.log(loginUserMessage());
 
 
+function calculateCartPrice(num1){
+    return num1
+}
+console.log(calculateCartPrice(100));
+
+//----------------- REST Operatoe ----------///
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(100,500,550,333));
+
+
+const user = {
+    username:"Durgesh",
+    price: 999
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+handleObject(user)
+
+
+// Arays
+const myArr = [200,400,600]
+
+function secondValue(getArr){
+    return getArr[1]
+}
+
+console.log(secondValue(myArr));
